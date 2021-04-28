@@ -902,20 +902,8 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 text-decoration-line: underline;
 color: var(--accent-color);
-margin-left: 5px;
 }
-.check-input {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
+
 .send-btn {
   display: block;
   min-width: 200px;
@@ -943,8 +931,7 @@ margin-left: 5px;
   height: 15px;
   border: 2px solid var(--primary-text-color);
   border-radius: 2px;
-  background-color: #212121;
- }
+}
 
 .check-input:checked ~ .icon-check {
   border: none;

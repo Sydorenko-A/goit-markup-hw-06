@@ -938,5 +938,5 @@ color: var(--accent-color);
   background-color: var(--accent-color);
 }
 .check-input:focus ~ .icon-check {
-  outline: auto 1px;
+  outline: #212121 auto 1px;
 }

@@ -937,3 +937,6 @@ color: var(--accent-color);
   border: none;
   background-color: var(--accent-color);
 }
+.check-input:focus ~ .icon-check {
+  outline: auto 1px;
+}

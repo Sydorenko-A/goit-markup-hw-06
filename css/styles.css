@@ -747,7 +747,7 @@ margin-bottom: 20px;
   min-width: 100%;
   min-height: 100%;
   opacity: 1;
-  transition: opacity 700ms linear;
+  transition: opacity 700ms linear, visibility 700ms linear
 }
 
 .backdrop.is-hidden {
@@ -938,5 +938,5 @@ color: var(--accent-color);
   background-color: var(--accent-color);
 }
 .check-input:focus ~ .icon-check {
-  outline: #212121 auto 1px;
+  outline: var(--accent-color) auto 1px;
 }
